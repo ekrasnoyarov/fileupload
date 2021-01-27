@@ -9,7 +9,10 @@ App has upload and download page, when you can upload and download files
 
 
 ### Download page has static links, you can change it for youself.
-``` @app.route('/test.txt')
+```python
+@app.route('/test.txt')
 def download_file():
     return send_from_directory(app.config['UPLOAD_FOLDER'],
-                               filename='test.txt', as_attachment=True) ```
+                               filename='test.txt', as_attachment=True) 
+                               
+```

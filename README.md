@@ -8,7 +8,7 @@ App has upload and download page, when you can upload and download files
 #FLASK_APP=main.py FLASK_DEBUG=1 flask run
 
 
-### Download page has static links, you can change it for youself.
+### Download page has static links, you can change them for youself.
 ```python
 @app.route('/test.txt')
 def download_file():
